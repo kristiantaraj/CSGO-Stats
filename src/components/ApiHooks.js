@@ -84,6 +84,10 @@ function showResults() {
 function displayStats() {
   const result = Object.values(profileData);
   if(result.length == 0) {
+    return(
+      <div>WAIT</div>
+    )
+  }else {
     return (
 
       <div>
@@ -132,10 +136,7 @@ function displayStats() {
         </div>
 
   );
-  }else {
-    return(
-      <div>WAIT</div>
-    )
+
   }
 
 }
