@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #17242A;
+    height: 70px;
+  }
+
+  .navbar-nav {
+    float: right !important;
+  }
+
+  .gradient-line {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    height: 5px;
+    width: 100%;
+    margin-top: 75px;
+    position: fixed;
+  }
+
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  .logo {
+    font-size: 30px !important;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  .sign-in {
+    background-color: #00adee !important;
+    border-radius: 20px 10px !important;
+    font-weight: bolder !important;
+  }
+
+  .sign-in img {
+    width: 25px;
+    margin-right: 5px;
+  }
